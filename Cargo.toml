@@ -1,0 +1,13 @@
+[package]
+
+name = "etcd-rust"
+version = "0.0.1"
+authors = ["Xavier Payn <xavier.payn@opentrust.com>"]
+
+[dependencies.hyper]
+
+git = "https://github.com/hyperium/hyper"
+
+[dependencies.url]
+
+git = "https://github.com/servo/rust-url"
